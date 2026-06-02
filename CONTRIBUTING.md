@@ -1,6 +1,6 @@
 # Contributing — claim the employer side
 
-This repo is the missing half of the [Open Employment Protocol](https://github.com/yuens1002/oep).
+This repo is the missing half of the [Open Employment Protocol](https://github.com/yuens1002/open-employment-protocol).
 The single most valuable thing you can do is **build a working role-agent**, however minimal —
 because a running endpoint is the only argument that counts, and it's falsifiable evidence
 the employer side of this protocol is real, not hypothetical. Disagree-by-doing.
@@ -11,7 +11,7 @@ the employer side of this protocol is real, not hypothetical. Disagree-by-doing.
   Return verified claims (`actual_stack`, `team_size`, `remote_policy`) per
   [ROLE-AGENT.md](./ROLE-AGENT.md), plus a `/.well-known/agent-card.json`. That alone
   completes one direction of the handshake. Open an issue with its URL — it joins the
-  [evidence graph](https://github.com/yuens1002/oep/blob/main/EVIDENCE-GRAPH.md).
+  [evidence graph](https://github.com/yuens1002/open-employment-protocol/blob/main/EVIDENCE-GRAPH.md).
 
 - **A weekend — the consume side.**
   Paste a JD + a candidate agent URL, query the candidate's agent via its discovered
@@ -19,7 +19,7 @@ the employer side of this protocol is real, not hypothetical. Disagree-by-doing.
 
 - **A position — shape the employer spec.**
   Disagree with the `/role` field set or the disclosure ladder? Bring it to
-  [`positions/employer.md`](https://github.com/yuens1002/oep/blob/main/positions/employer.md)
+  [`positions/employer.md`](https://github.com/yuens1002/open-employment-protocol/blob/main/positions/employer.md)
   in the OEP repo (the employer side owns that file) — with evidence from something you ran.
 
 ## Who this is especially for
@@ -32,7 +32,7 @@ instead of netted from one staffed side and one placeholder.
 ## Reconciliation lives in OEP, not here
 
 This repo is the employer-side **reference implementation**. What becomes *standard* is
-settled in the [OEP reconciler](https://github.com/yuens1002/oep) against the candidate
+settled in the [OEP reconciler](https://github.com/yuens1002/open-employment-protocol) against the candidate
 side. Build here; ratify there.
 
 ## Provenance norm

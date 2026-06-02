@@ -3,7 +3,7 @@
 > **The missing half — scaffolded, not yet built. This repo is an invitation.**
 
 [`resume-agent`](https://github.com/yuens1002/resume-agent) is the candidate-side reference
-of the [Open Employment Protocol](https://github.com/yuens1002/oep): a live, queryable,
+of the [Open Employment Protocol](https://github.com/yuens1002/open-employment-protocol): a live, queryable,
 signed agent. **This is its mirror** — the employer-side reference. It does two things a
 walled-garden job board never lets you do:
 
@@ -18,19 +18,32 @@ walled-garden job board never lets you do:
 
 Planned since 2026-04-24; **not yet built.** This scaffold exists so that someone who hires —
 or builds hiring tooling — can stand it up. Per the protocol's
-[evidence-graph method](https://github.com/yuens1002/oep/blob/main/EVIDENCE-GRAPH.md),
+[evidence-graph method](https://github.com/yuens1002/open-employment-protocol/blob/main/EVIDENCE-GRAPH.md),
 **building it is itself the proof the other side of the protocol is real.** A working
 `/role` endpoint is worth more than any amount of agreement.
 
 If you build it, you don't just contribute code — you become the **employer voice** the
 reconciliation needs. The protocol can't be netted honestly with only one side staffed.
 
+## Maintainership & independence
+
+This repo is deliberately **not owned or driven by the candidate-side author.** The person
+who built [`resume-agent`](https://github.com/yuens1002/resume-agent) (the candidate
+reference) stays in a **mentor-only** role here and recuses from the employer-side work —
+because the whole point of the protocol is that **no single party owns both sides.** Someone
+who controlled the candidate side *and* the employer side would defeat the independence the
+trifecta exists to protect; that conflict of interest is real, and naming it is the honest
+move.
+
+So the employer side needs a real owner — someone who hires, or builds hiring tooling, to
+take it and run. **Mentorship is available; ownership is open.**
+
 ## How it plugs into OEP
 
 OEP is a **reconciler, not a spec author**: the candidate side and the employer side each
 bring their own spec, and OEP poses both and settles a net outcome no single party owns.
 This repo is the **employer position made executable** — the running counterpart to
-[`positions/employer.md`](https://github.com/yuens1002/oep/blob/main/positions/employer.md)
+[`positions/employer.md`](https://github.com/yuens1002/open-employment-protocol/blob/main/positions/employer.md)
 in the OEP repo. Build here; the standard gets reconciled there.
 
 See **[ROLE-AGENT.md](./ROLE-AGENT.md)** for the concrete endpoint sketch to build against —
@@ -47,7 +60,7 @@ reconciliation ratifies).
   guess).
 - **The handshake** — implement mutual `/verify`: each side confirms the other's
   domain-signed claims before revealing more. The trust mechanism is described in
-  [OEP TRUST.md](https://github.com/yuens1002/oep/blob/main/TRUST.md).
+  [OEP TRUST.md](https://github.com/yuens1002/open-employment-protocol/blob/main/TRUST.md).
 
 ## Provenance
 

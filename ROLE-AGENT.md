@@ -1,7 +1,7 @@
 # Role-agent — the endpoint sketch (a target to build against)
 
 This is a **starting target**, not an authority. The authoritative shape of the employer
-side is whatever the [OEP reconciliation](https://github.com/yuens1002/oep/blob/main/RECONCILIATION.md)
+side is whatever the [OEP reconciliation](https://github.com/yuens1002/open-employment-protocol/blob/main/RECONCILIATION.md)
 ratifies against the candidate side. Build against this to get a working node fast; expect
 it to move as the two sides are reconciled.
 
@@ -13,7 +13,7 @@ The design goal mirrors the candidate side: **verified claims, not marketing cop
 ### `GET /.well-known/agent-card.json`
 A2A agent-card so a candidate's agent can discover the role-agent. Domain-verified and
 signed (same CA-style mechanism as the candidate side — see
-[OEP TRUST.md](https://github.com/yuens1002/oep/blob/main/TRUST.md)).
+[OEP TRUST.md](https://github.com/yuens1002/open-employment-protocol/blob/main/TRUST.md)).
 
 ### `GET /role/:id`
 The verified-claims counterpart to the candidate's `/info`. Marketing copy is the thing this
@@ -59,7 +59,7 @@ Before either side reveals more than the public surface:
 
 This is the "both sides verify before committing time" property, made concrete. The exact
 thresholds and disclosure ladder are a reconciliation question, owned in the
-[OEP repo](https://github.com/yuens1002/oep), not decided here.
+[OEP repo](https://github.com/yuens1002/open-employment-protocol), not decided here.
 
 ## What's deliberately undecided
 
