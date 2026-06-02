@@ -1,4 +1,4 @@
-# oep-recruiter — the employer side of the Open Employment Protocol
+# employer-agent — the employer side of the Open Employment Protocol
 
 > **The missing half — scaffolded, not yet built. This repo is an invitation.**
 
